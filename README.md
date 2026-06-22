@@ -121,4 +121,5 @@ This project was created as a final studio assignment. Music data and previews a
 
 ## Author
 
-Built with AI-assisted development as part of **Studio: Build & Deploy with AI**.
+Built with AI-assisted development and Mohamed Amine Gharbi
+
