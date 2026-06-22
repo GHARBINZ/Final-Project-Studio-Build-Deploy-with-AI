@@ -88,13 +88,20 @@ The Deezer API does not support CORS from browser `fetch` calls, so this app use
 
 ## Deployment (GitHub Pages)
 
-This project deploys automatically via GitHub Actions when changes are pushed to `main`.
+Code is pushed to `main`. Enable GitHub Pages once:
 
-1. Push code to the `main` branch
-2. GitHub Actions builds and deploys to Pages
-3. Site is live at: `https://gharbinz.github.io/Final-Project-Studio-Build-Deploy-with-AI/`
+### Option A — Deploy from branch (fastest)
 
-To enable manually: **Repository Settings → Pages → Source: GitHub Actions**
+1. Open [Repository Settings → Pages](https://github.com/GHARBINZ/Final-Project-Studio-Build-Deploy-with-AI/settings/pages)
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. Select branch **`main`**, folder **`/ (root)`**, then click **Save**
+4. Wait 1–2 minutes, then visit: **https://gharbinz.github.io/Final-Project-Studio-Build-Deploy-with-AI/**
+
+### Option B — GitHub Actions (automatic on push)
+
+1. Open [Repository Settings → Pages](https://github.com/GHARBINZ/Final-Project-Studio-Build-Deploy-with-AI/settings/pages)
+2. Set **Source** to **GitHub Actions**
+3. Re-run the [Deploy workflow](https://github.com/GHARBINZ/Final-Project-Studio-Build-Deploy-with-AI/actions) or push a new commit
 
 ---
 
