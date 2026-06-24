@@ -37,13 +37,20 @@ jobs:
           npm ci
           npm run build
 
+      - name: Prepare docs folder
+        run: |
+          rm -rf docs
+          mkdir docs
+          cp -r waveplay-react/build/* docs/
+          touch docs/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: waveplay-react/build
+          path: docs
 
       - name: Deploy to GitHub Pages
         id: deployment

@@ -29,7 +29,12 @@ npm start
 
 ## Deployment
 
-Pushes to `main` trigger GitHub Actions to build `waveplay-react` and deploy to GitHub Pages. Set **Settings → Pages → Source** to **GitHub Actions**.
+Pushes to `main` trigger GitHub Actions to build `waveplay-react` and deploy to GitHub Pages.
+
+**One-time setup** — open [Repository Settings → Pages](https://github.com/GHARBINZ/Final-Project-Studio-Build-Deploy-with-AI/settings/pages) and choose one:
+
+- **GitHub Actions** (recommended) — set **Source** to **GitHub Actions**, then re-run the [Deploy workflow](https://github.com/GHARBINZ/Final-Project-Studio-Build-Deploy-with-AI/actions/workflows/deploy.yml) if needed.
+- **Deploy from branch** — set **Source** to branch **`main`**, folder **`/docs`**.
 
 ---
 

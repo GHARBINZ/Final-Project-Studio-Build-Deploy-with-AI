@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Final-Project-Studio-Build-Deploy-with-AI/static/css/main.3982bb5f.css",
+    "main.js": "/Final-Project-Studio-Build-Deploy-with-AI/static/js/main.c52bee72.js",
+    "static/js/453.69b99a17.chunk.js": "/Final-Project-Studio-Build-Deploy-with-AI/static/js/453.69b99a17.chunk.js",
+    "index.html": "/Final-Project-Studio-Build-Deploy-with-AI/index.html",
+    "main.3982bb5f.css.map": "/Final-Project-Studio-Build-Deploy-with-AI/static/css/main.3982bb5f.css.map",
+    "main.c52bee72.js.map": "/Final-Project-Studio-Build-Deploy-with-AI/static/js/main.c52bee72.js.map",
+    "453.69b99a17.chunk.js.map": "/Final-Project-Studio-Build-Deploy-with-AI/static/js/453.69b99a17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3982bb5f.css",
+    "static/js/main.c52bee72.js"
+  ]
+}
