@@ -1,8 +1,4 @@
-# WavePlay — Studio: Build & Deploy with AI
-
-This repository contains the WavePlay music player project for **Studio: Build & Deploy with AI**.
-
-**Live demo (React app):** [https://gharbinz.github.io/Final-Project-Studio-Build-Deploy-with-AI/](https://gharbinz.github.io/Final-Project-Studio-Build-Deploy-with-AI/)
+# WavePlay — Studio
 
 ---
 
